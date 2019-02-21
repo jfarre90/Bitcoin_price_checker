@@ -16,6 +16,6 @@ function getPrice(){
 }
 
 // listen for clicks
-btn.addEventListener("click", getPrice());
+btn.addEventListener("click", getPrice);
 
 window.onload = getPrice;
